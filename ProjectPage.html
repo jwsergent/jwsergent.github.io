@@ -1,0 +1,110 @@
+﻿<!DOCTYPE html>
+<html>
+<title>Jack Sergent</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    body, h1, h2, h3, h4, h5, h6 {
+        font-family: "Montserrat", sans-serif
+    }
+
+    .w3-row-padding img {
+        margin-bottom: 12px
+    }
+    /* Set the width of the sidebar to 120px */
+    .w3-sidebar {
+        width: 120px;
+        background: #222;
+    }
+    /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+    #main {
+        margin-left: 120px
+    }
+    /* Remove margins from "page content" on small screens */
+    @media only screen and (max-width: 600px) {
+        #main {
+            margin-left: 0
+        }
+    }
+</style>
+<body class="w3-black">
+
+    <!-- Icon Bar (Sidebar - hidden on small screens) -->
+    <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+
+        <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-black">
+            <i class="fa fa-home w3-xxlarge"></i>
+            <p>HOME</p>
+        </a>
+        <a href="AboutPage.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+            <i class="fa fa-user w3-xxlarge"></i>
+            <p>ABOUT</p>
+        </a>
+        <a href="ProjectPage.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+            <i class="fa fa-area-chart w3-xxlarge"></i>
+            <p>PROJECTS</p>
+        </a>
+        <a href="SkillPage.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+            <i class="fa fa-wrench w3-xxlarge"></i>
+            <p>SKILL SETS</p>
+        </a>
+    </nav>
+
+    <!-- Navbar on small screens (Hidden on medium and large screens) -->
+    <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+        <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+            <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+            <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+            <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PROJECTS</a>
+            <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">SKILL SETS</a>
+        </div>
+    </div>
+
+
+    <!-- Portfolio Section -->
+    <div class="w3-padding-64 w3-content" id="photos">
+        <h2 class="w3-text-light-grey">Projects</h2>
+        <hr style="width:200px" class="w3-opacity">
+
+
+        <p><span class="w3-large w3-margin-right w3-text-light-grey">Financial Modeling & Analysis in Excel</span>Valuation Model</p>
+        <p>
+            Created a valuation model of Amazon Inc. Together with two other team members, we performed research in order to forecast Amazon's cash flows
+            and then used our model to discount these cash flows to find a company value.
+        </p><br>
+
+
+        <p><span class="w3-large w3-margin-right w3-text-light-grey">Database Management</span>Functional Database Final Project</p>
+        <p>
+            With a team of 5 other students, we created a database for a hypothetical local charity. My main responsibilities on the project were to create the entity framework
+            and to ensure that our data was functional and valid. I also participated in the creation of SQL queries in order to provide feedback to our clients questions.
+        </p><br>
+
+        <p><span class="w3-large w3-margin-right w3-text-light-grey">Student Investment Fund</span>Company Valuation</p>
+        <p>
+            I am a participant in the Fall 2020 Price College of Business Student Investment Fund. We manage a small-cap value fund that currently sits at a value around $1,000,000.
+            Along with one partner, I manage the energy sector of this fund. Our main resposnibility has been to forecast our current and potential holding's revenue and cash flows.
+            We then use these forecasts to find a value for each company. We then use our valuations to make investment decisions.
+        </p><br>
+
+        <p><span class="w3-large w3-margin-right w3-text-light-grey">Racon Natural Resources SPAC</span>Valuation Model</p>
+        <p>
+            This past summer, I had the opportunity to work for a SPAC in the early stages. My main responsibility was to create a cash flow model in Excel to valuate potential aquisitional targets.
+            In total, I valuated 6 different assets. I utilized data from Enverus DrillinInfo to forecast Oil & Gas production. These models were made with high functionality and the ability to quickly change
+            inputs based on management preference.
+        </p><br>
+
+        <p><span class="w3-large w3-margin-right w3-text-light-grey">Intro to Marketing - Vichy, France</span>Whisperies Consulting Project</p>
+        <p>
+            While studying abroad with the University of Oklahoma in Vichy, France, I participated in a consulting project with a local company. Whisperies was considering entering the
+            U.S. market with their children's books. Our team performed in-depth research on the children's book market in the U.S. and eventually gave our reccommnedation that they should
+            not attempt to enter market.
+        </p><br>
+
+
+    </div>
+</body>
+</html>
